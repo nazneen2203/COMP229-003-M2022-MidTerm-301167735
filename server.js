@@ -15,7 +15,7 @@ const configurePassport = require('./config/passport');
  */
 
 var db = configDB();
-var port = normalizePort(process.env.PORT || '3002');
+var port = normalizePort(process.env.PORT || '3001');
 app.set('port', port);
 
 /**
